@@ -1,0 +1,29 @@
+{
+    "name": "eleva/laravel-service-maker",
+    "description": "A Laravel package to generate services and interfaces",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Eleva\\LaravelServiceMaker\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ahmed Elshaar",
+            "email": "elshaar@eleva-protech.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.2",
+        "laravel/framework": "^12.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Eleva\\LaravelServiceMaker\\ServiceMakerServiceProvider"
+            ]
+        }
+    }
+}
