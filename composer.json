@@ -22,7 +22,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Eleva\\LaravelServiceMaker\\ServiceMakerServiceProvider"
+                "Eleva\\ServiceMaker\\ServiceMakerServiceProvider"
             ]
         }
     }
